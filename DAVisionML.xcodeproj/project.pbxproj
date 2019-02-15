@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38088A24206798300069878A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38088A23206798300069878A /* AppDelegate.swift */; };
+		38088A26206798300069878A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38088A25206798300069878A /* ViewController.swift */; };
+		38088A29206798300069878A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38088A27206798300069878A /* Main.storyboard */; };
+		38088A2B206798300069878A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38088A2A206798300069878A /* Assets.xcassets */; };
+		38088A2E206798300069878A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38088A2C206798300069878A /* LaunchScreen.storyboard */; };
+		38088A39206798300069878A /* DAVisionMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38088A38206798300069878A /* DAVisionMLTests.swift */; };
+		38088A44206798300069878A /* DAVisionMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38088A43206798300069878A /* DAVisionMLUITests.swift */; };
+		F449F86721F972FE00E1D2B2 /* MoneyClassification.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F449F86621F972FE00E1D2B2 /* MoneyClassification.mlmodel */; };
+		F490A7612068ACF200C0AD80 /* BeerOrNotBeer.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F490A7602068ACF200C0AD80 /* BeerOrNotBeer.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38088A35206798300069878A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38088A18206798300069878A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38088A1F206798300069878A;
+			remoteInfo = DAVisionML;
+		};
+		38088A40206798300069878A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38088A18206798300069878A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38088A1F206798300069878A;
+			remoteInfo = DAVisionML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38088A20206798300069878A /* DAVisionML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAVisionML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38088A23206798300069878A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38088A25206798300069878A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38088A28206798300069878A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38088A2A206798300069878A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38088A2D206798300069878A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38088A2F206798300069878A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38088A34206798300069878A /* DAVisionMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DAVisionMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38088A38206798300069878A /* DAVisionMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAVisionMLTests.swift; sourceTree = "<group>"; };
+		38088A3A206798300069878A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38088A3F206798300069878A /* DAVisionMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DAVisionMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38088A43206798300069878A /* DAVisionMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAVisionMLUITests.swift; sourceTree = "<group>"; };
+		38088A45206798300069878A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F449F86621F972FE00E1D2B2 /* MoneyClassification.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MoneyClassification.mlmodel; sourceTree = "<group>"; };
+		F490A7602068ACF200C0AD80 /* BeerOrNotBeer.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BeerOrNotBeer.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38088A1D206798300069878A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38088A31206798300069878A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38088A3C206798300069878A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38088A17206798300069878A = {
+			isa = PBXGroup;
+			children = (
+				38088A22206798300069878A /* DAVisionML */,
+				38088A37206798300069878A /* DAVisionMLTests */,
+				38088A42206798300069878A /* DAVisionMLUITests */,
+				38088A21206798300069878A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38088A21206798300069878A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38088A20206798300069878A /* DAVisionML.app */,
+				38088A34206798300069878A /* DAVisionMLTests.xctest */,
+				38088A3F206798300069878A /* DAVisionMLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38088A22206798300069878A /* DAVisionML */ = {
+			isa = PBXGroup;
+			children = (
+				38088A23206798300069878A /* AppDelegate.swift */,
+				38088A25206798300069878A /* ViewController.swift */,
+				38088A27206798300069878A /* Main.storyboard */,
+				38088A2A206798300069878A /* Assets.xcassets */,
+				38088A2C206798300069878A /* LaunchScreen.storyboard */,
+				38088A2F206798300069878A /* Info.plist */,
+				F449F86621F972FE00E1D2B2 /* MoneyClassification.mlmodel */,
+				F490A7602068ACF200C0AD80 /* BeerOrNotBeer.mlmodel */,
+			);
+			path = DAVisionML;
+			sourceTree = "<group>";
+		};
+		38088A37206798300069878A /* DAVisionMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				38088A38206798300069878A /* DAVisionMLTests.swift */,
+				38088A3A206798300069878A /* Info.plist */,
+			);
+			path = DAVisionMLTests;
+			sourceTree = "<group>";
+		};
+		38088A42206798300069878A /* DAVisionMLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38088A43206798300069878A /* DAVisionMLUITests.swift */,
+				38088A45206798300069878A /* Info.plist */,
+			);
+			path = DAVisionMLUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38088A1F206798300069878A /* DAVisionML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38088A48206798300069878A /* Build configuration list for PBXNativeTarget "DAVisionML" */;
+			buildPhases = (
+				38088A1C206798300069878A /* Sources */,
+				38088A1D206798300069878A /* Frameworks */,
+				38088A1E206798300069878A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DAVisionML;
+			productName = DAVisionML;
+			productReference = 38088A20206798300069878A /* DAVisionML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38088A33206798300069878A /* DAVisionMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38088A4B206798300069878A /* Build configuration list for PBXNativeTarget "DAVisionMLTests" */;
+			buildPhases = (
+				38088A30206798300069878A /* Sources */,
+				38088A31206798300069878A /* Frameworks */,
+				38088A32206798300069878A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38088A36206798300069878A /* PBXTargetDependency */,
+			);
+			name = DAVisionMLTests;
+			productName = DAVisionMLTests;
+			productReference = 38088A34206798300069878A /* DAVisionMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38088A3E206798300069878A /* DAVisionMLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38088A4E206798300069878A /* Build configuration list for PBXNativeTarget "DAVisionMLUITests" */;
+			buildPhases = (
+				38088A3B206798300069878A /* Sources */,
+				38088A3C206798300069878A /* Frameworks */,
+				38088A3D206798300069878A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38088A41206798300069878A /* PBXTargetDependency */,
+			);
+			name = DAVisionMLUITests;
+			productName = DAVisionMLUITests;
+			productReference = 38088A3F206798300069878A /* DAVisionMLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38088A18206798300069878A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Apple Inc.";
+				TargetAttributes = {
+					38088A1F206798300069878A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					38088A33206798300069878A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38088A1F206798300069878A;
+					};
+					38088A3E206798300069878A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 38088A1F206798300069878A;
+					};
+				};
+			};
+			buildConfigurationList = 38088A1B206798300069878A /* Build configuration list for PBXProject "DAVisionML" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38088A17206798300069878A;
+			productRefGroup = 38088A21206798300069878A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38088A1F206798300069878A /* DAVisionML */,
+				38088A33206798300069878A /* DAVisionMLTests */,
+				38088A3E206798300069878A /* DAVisionMLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38088A1E206798300069878A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38088A2E206798300069878A /* LaunchScreen.storyboard in Resources */,
+				38088A2B206798300069878A /* Assets.xcassets in Resources */,
+				38088A29206798300069878A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38088A32206798300069878A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38088A3D206798300069878A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38088A1C206798300069878A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F490A7612068ACF200C0AD80 /* BeerOrNotBeer.mlmodel in Sources */,
+				38088A26206798300069878A /* ViewController.swift in Sources */,
+				38088A24206798300069878A /* AppDelegate.swift in Sources */,
+				F449F86721F972FE00E1D2B2 /* MoneyClassification.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38088A30206798300069878A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38088A39206798300069878A /* DAVisionMLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38088A3B206798300069878A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38088A44206798300069878A /* DAVisionMLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38088A36206798300069878A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38088A1F206798300069878A /* DAVisionML */;
+			targetProxy = 38088A35206798300069878A /* PBXContainerItemProxy */;
+		};
+		38088A41206798300069878A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38088A1F206798300069878A /* DAVisionML */;
+			targetProxy = 38088A40206798300069878A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38088A27206798300069878A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38088A28206798300069878A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38088A2C206798300069878A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38088A2D206798300069878A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38088A46206798300069878A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38088A47206798300069878A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38088A49206798300069878A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W84329STPY;
+				INFOPLIST_FILE = DAVisionML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.developeracademy.DAVisionML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38088A4A206798300069878A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W84329STPY;
+				INFOPLIST_FILE = DAVisionML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.developeracademy.DAVisionML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38088A4C206798300069878A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7H8VMT2AX;
+				INFOPLIST_FILE = DAVisionMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.developeracademy.DAVisionMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAVisionML.app/DAVisionML";
+			};
+			name = Debug;
+		};
+		38088A4D206798300069878A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7H8VMT2AX;
+				INFOPLIST_FILE = DAVisionMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.developeracademy.DAVisionMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAVisionML.app/DAVisionML";
+			};
+			name = Release;
+		};
+		38088A4F206798300069878A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7H8VMT2AX;
+				INFOPLIST_FILE = DAVisionMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.developeracademy.DAVisionMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DAVisionML;
+			};
+			name = Debug;
+		};
+		38088A50206798300069878A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J7H8VMT2AX;
+				INFOPLIST_FILE = DAVisionMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apple.developeracademy.DAVisionMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DAVisionML;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38088A1B206798300069878A /* Build configuration list for PBXProject "DAVisionML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38088A46206798300069878A /* Debug */,
+				38088A47206798300069878A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38088A48206798300069878A /* Build configuration list for PBXNativeTarget "DAVisionML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38088A49206798300069878A /* Debug */,
+				38088A4A206798300069878A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38088A4B206798300069878A /* Build configuration list for PBXNativeTarget "DAVisionMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38088A4C206798300069878A /* Debug */,
+				38088A4D206798300069878A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38088A4E206798300069878A /* Build configuration list for PBXNativeTarget "DAVisionMLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38088A4F206798300069878A /* Debug */,
+				38088A50206798300069878A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38088A18206798300069878A /* Project object */;
+}
